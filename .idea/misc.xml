@@ -6,19 +6,35 @@
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/drawable/custom_bg.xml" value="0.194" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/drawable/custom_btn.xml" value="0.2115" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/drawable/field_username_icon.xml" value="0.2115" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/drawable/menu_dashboard_icon.xml" value="0.2115" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/drawable/white_circle.xml" value="0.2115" />
-        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-large/splash_screen.xml" value="0.153125" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-large/splash_screen.xml" value="0.22" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-normal/activity_how_we_work.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-normal/activity_on_boarding.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-normal/activity_retailer_login.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-normal/activity_retailer_sign_up.xml" value="0.18" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-normal/activity_retailer_sign_up.xml" value="0.25" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-normal/activity_retailer_start_up_screen.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-normal/slides_layout.xml" value="0.1" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-normal/splash_screen.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-small/splash_screen.xml" value="0.75" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-xlarge/splash_screen.xml" value="0.153125" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_forget_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_forget_password_mobile.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_how_we_work.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_main.xml" value="0.15489130434782608" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_on_boarding.xml" value="0.2" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_retailer_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_retailer_sign_up.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_retailer_start_up_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_set_new_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_sign_up1st_class.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_sign_up2nd_class.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_sign_up3rd_class.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_success_message.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_verify_otp.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/slides_layout.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/splash_screen.xml" value="0.20416666666666666" />
       </map>
     </option>

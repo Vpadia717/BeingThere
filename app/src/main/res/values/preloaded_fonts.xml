@@ -2,6 +2,7 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/antic</item>
+        <item>@font/muli_semibold</item>
         <item>@font/sirin_stencil</item>
     </array>
 </resources>
