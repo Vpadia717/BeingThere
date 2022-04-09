@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "198576616821",
+    "project_id": "being-there-dadd4",
+    "storage_bucket": "being-there-dadd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198576616821:android:3c54e95f9b9e816e73cf3c",
+        "android_client_info": {
+          "package_name": "com.example.beingthere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198576616821-5v2u1l93k6s8905u4fgk3pq4dsk74pia.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaGP2hXM5HireiMPreUpwBztjOO4sY67c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198576616821-5v2u1l93k6s8905u4fgk3pq4dsk74pia.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

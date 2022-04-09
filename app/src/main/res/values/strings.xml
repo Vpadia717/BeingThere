@@ -1,23 +1,23 @@
 <resources>
-    <string name="app_name">BeingThere</string>
+    <string name="app_name">Being There</string>
 
     <!-- Strings for on board Screen -->
 
-    <string name="first_slide_title">Why H! Bot ?</string>
-    <string name="second_slide_title">Conversation</string>
+    <string name="first_slide_title">Why Being There ?</string>
+    <string name="second_slide_title">Reconization</string>
     <string name="third_slide_title">Effectiveness</string>
     <string name="fourth_slide_title">Stay Connected</string>
 
     <!-- Descriptions for the title -->
 
-    <string name="first_slide_desc">H! Bot provides facility to get information regarding admission process and further details.</string>
-    <string name="second_slide_desc">Your conversation is made with the chat bot named "H! Bot" which provides simple and exact information.</string>
-    <string name="third_slide_desc">The information which is provided by H! Bot is 99.99% true.</string>
+    <string name="first_slide_desc">Being There provides facility to get information regarding admission process and further details.</string>
+    <string name="second_slide_desc">Your attendance is made with the system named "Being There" which provides facility to mark attendance with the mobile app.</string>
+    <string name="third_slide_desc">The recognization provided by Being There is 90% accurated.</string>
     <string name="fourth_slide_desc">Stay connected with us for more Information.</string>
 
     <!-- Descriptions for the Disclaimer -->
-    <string name="disclaimer_description">The H! Bot is a computer program that uses artificial intelligence (AI) and natural language processing (NLP) to understand customer questions and automate responses to them, simulating human conversation.The H! Bot
+    <string name="disclaimer_description">The Being There is a computer program that uses artificial intelligence (AI) and natural language processing (NLP) to understand customer questions and automate responses to them, simulating human conversation.The Being There
 supports the Privacy Act of 1974 (5 U.S.C. § 552a) protects personal information held by the federal government by preventing unauthorized disclosures of such information.Copyright refers to the legal right of the owner of intellectual property. In simpler terms, copyright is the right to copy. This means that the original creators of products and anyone they give authorization to are the only ones with the exclusive right to reproduce the work.</string>
-    <string name="disclaimer_copy">Mr. Dharam Bhojani. \nMr. Vivek Padia.</string>
+    <string name="disclaimer_copy">By 6th Sense.</string>
 
 </resources>

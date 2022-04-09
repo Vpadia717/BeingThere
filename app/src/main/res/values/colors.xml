@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="background">#FF251923</color>
-    <color name="yellow">#FFFFA801</color>
+    <color name="yellow">#FFFFCF00</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="red">#FFFF3f12</color>
-    <color name="blue">#FF0098FF</color>
+    <color name="orange">#FFFF3f12</color>
+    <color name="red">#FFFF0000</color>
+    <color name="blue">#FF0068FF</color>
+    <color name="light_blue">#95B9C7</color>
+    <color name="there">#FF4B72FF</color>
+    <color name="pink">#FFF50857</color>
+    <color name="dblue">#FF090431</color>
+    <color name="grey">#FF808080</color>
+    <color name="green">#FF59A81E</color>
+    <color name="dark_blue">#FF44456A</color>
+    <color name="purple">#FF533A84</color>
+    <color name="lightWhite">#FFFFFAFA</color>
 </resources>
