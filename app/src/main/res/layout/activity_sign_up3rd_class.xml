@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:transitionName="transition_OTP_screen"
-    tools:context=".Common.LoginSignup.SignUp3rdClass">
+    tools:context=".Common.LoginSignup.SignUp3rd">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -120,7 +120,7 @@
                 android:layout_marginTop="20dp"
                 android:background="@drawable/custom_btn"
                 android:elevation="5dp"
-                android:onClick="callVerifyOTPScreen"
+                android:onClick="callHomeScreen"
                 android:text="Next"
                 android:textColor="@color/white"
                 android:transitionName="transition_OTP_screen" />

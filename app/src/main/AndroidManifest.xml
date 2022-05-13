@@ -15,7 +15,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BeingThere">
         <activity
-            android:name=".HomeScreen"
+            android:name=".Common.LoginSignup.SignUp3rd"
+            android:exported="false" />
+        <activity
+            android:name=".Common.HomeScreen"
             android:exported="false" />
         <activity
             android:name=".Common.LoginSignup.SuccessMessage"
@@ -30,13 +33,7 @@
             android:name=".Common.LoginSignup.ForgetPassword"
             android:exported="false" />
         <activity
-            android:name=".Common.LoginSignup.VerifyOTP"
-            android:exported="false" />
-        <activity
             android:name=".Common.howWeWork"
-            android:exported="false" />
-        <activity
-            android:name=".Common.LoginSignup.SignUp3rdClass"
             android:exported="false" />
         <activity
             android:name=".Common.LoginSignup.SignUp2ndClass"

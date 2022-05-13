@@ -1,7 +1,9 @@
 package com.example.beingthere.Common.LoginSignup;
 
+import android.Manifest;
 import android.app.ActivityOptions;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.util.Pair;
 import android.view.View;
@@ -12,6 +14,7 @@ import android.widget.TextView;
 
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import com.example.beingthere.R;
@@ -48,15 +51,26 @@ public class SignUp extends AppCompatActivity {
         email = findViewById(R.id.signup_email);
         password = findViewById(R.id.signup_password);
 
+        if (ContextCompat.checkSelfPermission(SignUp.this,
+                Manifest.permission.ACCESS_BACKGROUND_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            if (ActivityCompat.shouldShowRequestPermissionRationale(SignUp.this,
+                    Manifest.permission.ACCESS_BACKGROUND_LOCATION)) {
+                ActivityCompat.requestPermissions(SignUp.this,
+                        new String[]{Manifest.permission.ACCESS_BACKGROUND_LOCATION}, 1);
+            } else {
+                ActivityCompat.requestPermissions(SignUp.this,
+                        new String[]{Manifest.permission.ACCESS_BACKGROUND_LOCATION}, 1);
+            }
+        }
 
     }
 
 
     public void callNextSigupScreen(View view) {
-
         if (!validateFullName() | !validateUsername() | !validateEmail() | !validatePassword()) {
             return;
         }
+
         Intent intent = new Intent(getApplicationContext(), SignUp2ndClass.class);
 
 

@@ -1,7 +1,9 @@
 package com.example.beingthere.Common.LoginSignup;
 
+import android.Manifest;
 import android.app.ActivityOptions;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.util.Pair;
 import android.view.View;
@@ -16,6 +18,7 @@ import android.widget.Toast;
 
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
 import com.example.beingthere.R;
@@ -53,6 +56,17 @@ public class SignUp2ndClass extends AppCompatActivity {
         radioGroup = findViewById(R.id.radio_group);
         datePicker = findViewById(R.id.age_picker);
 
+        if (ContextCompat.checkSelfPermission(SignUp2ndClass.this,
+                Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            if (ActivityCompat.shouldShowRequestPermissionRationale(SignUp2ndClass.this,
+                    Manifest.permission.ACCESS_FINE_LOCATION)) {
+                ActivityCompat.requestPermissions(SignUp2ndClass.this,
+                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+            } else {
+                ActivityCompat.requestPermissions(SignUp2ndClass.this,
+                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+            }
+        }
 
     }
 
@@ -60,9 +74,16 @@ public class SignUp2ndClass extends AppCompatActivity {
     public void call3rdSigupScreen(View view) {
 
 
-        if(!validateGender() | !validateAge()){
+        if (!validateGender() | !validateAge()) {
             return;
         }
+
+        String _fullName = getIntent().getStringExtra("fullName");
+        String _email = getIntent().getStringExtra("email");
+        String _username = getIntent().getStringExtra("username");
+        String _password = getIntent().getStringExtra("password");
+        String _date = getIntent().getStringExtra("date");
+        String _gender = getIntent().getStringExtra("gender");
 
         selectedGender = findViewById(radioGroup.getCheckedRadioButtonId());
         String gender = selectedGender.getText().toString();
@@ -71,9 +92,9 @@ public class SignUp2ndClass extends AppCompatActivity {
         int month = datePicker.getMonth();
         int year = datePicker.getYear();
 
-        String date = day+"/"+month+"/"+year;
+        String date = day + "/" + month + "/" + year;
 
-        Intent intent = new Intent(getApplicationContext(), SignUp3rdClass.class);
+        Intent intent = new Intent(getApplicationContext(), SignUp3rd.class);
 
 
         //Add Transition and call next activity
@@ -127,8 +148,8 @@ public class SignUp2ndClass extends AppCompatActivity {
         int userAge = datePicker.getYear();
         int isAgeValid = currentYear - userAge;
 
-        if (isAgeValid < 14) {
-            Toast.makeText(this, "You are not eligible user", Toast.LENGTH_SHORT).show();
+        if (isAgeValid < 15) {
+            Toast.makeText(this, "Sorry minimum age is 15", Toast.LENGTH_SHORT).show();
             return false;
         } else {
             return true;

@@ -3,10 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/drawable/analytics.xml" value="0.2115" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/drawable/custom_bg.xml" value="0.194" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/drawable/custom_btn.xml" value="0.2115" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/drawable/download.xml" value="0.2115" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/drawable/field_username_icon.xml" value="0.2115" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/drawable/menu_dashboard_icon.xml" value="0.2115" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/drawable/trans_user.xml" value="0.2115" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/drawable/white_circle.xml" value="0.2115" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-large/splash_screen.xml" value="0.22" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-normal/activity_how_we_work.xml" value="0.20416666666666666" />
@@ -18,7 +21,7 @@
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-normal/splash_screen.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-small/splash_screen.xml" value="0.75" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout-xlarge/splash_screen.xml" value="0.153125" />
-        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_forget_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_forget_password.xml" value="0.22" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_forget_password_mobile.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/vivek/AndroidStudioProjects/BeingThere/app/src/main/res/layout/activity_home_screen.xml" value="0.1" />
@@ -45,5 +48,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

@@ -1,10 +1,13 @@
 package com.example.beingthere.Common.LoginSignup;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
 
+import android.Manifest;
 import android.app.ActivityOptions;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.util.Pair;
 import android.view.View;
@@ -20,6 +23,18 @@ public class RetailerStartUpScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FORCE_NOT_FULLSCREEN);
         setContentView(R.layout.activity_retailer_start_up_screen);
+
+        if (ContextCompat.checkSelfPermission(RetailerStartUpScreen.this,
+                Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
+            if (ActivityCompat.shouldShowRequestPermissionRationale(RetailerStartUpScreen.this,
+                    Manifest.permission.ACCESS_FINE_LOCATION)) {
+                ActivityCompat.requestPermissions(RetailerStartUpScreen.this,
+                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+            } else {
+                ActivityCompat.requestPermissions(RetailerStartUpScreen.this,
+                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
+            }
+        }
     }
 
     public void callLoginScreen(View view) {
@@ -36,6 +51,7 @@ public class RetailerStartUpScreen extends AppCompatActivity {
     }
 
     public void callSignUpScreen(View view) {
+
         Intent intent = new Intent(getApplicationContext(), SignUp.class);
 
         Pair[] pairs = new Pair[1];
