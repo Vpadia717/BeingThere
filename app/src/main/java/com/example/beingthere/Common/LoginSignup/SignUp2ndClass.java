@@ -55,19 +55,6 @@ public class SignUp2ndClass extends AppCompatActivity {
         slideText = findViewById(R.id.signup_slide_text);
         radioGroup = findViewById(R.id.radio_group);
         datePicker = findViewById(R.id.age_picker);
-
-        if (ContextCompat.checkSelfPermission(SignUp2ndClass.this,
-                Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            if (ActivityCompat.shouldShowRequestPermissionRationale(SignUp2ndClass.this,
-                    Manifest.permission.ACCESS_FINE_LOCATION)) {
-                ActivityCompat.requestPermissions(SignUp2ndClass.this,
-                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
-            } else {
-                ActivityCompat.requestPermissions(SignUp2ndClass.this,
-                        new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 1);
-            }
-        }
-
     }
 
 
